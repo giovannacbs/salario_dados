@@ -5,87 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/style.css">
     <title>Desigualdade Salarial entre Gêneros 2024</title>
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap");
-
-        body, html {
-            margin: 0;
-            padding: 0;
-            background-color: #EDF2F7;
-            height: 100%;
-            box-sizing: border-box;
-        }
-
-        .header, .footer {
-            font-family: "Oxanium", monospace;
-            color: #e0e6ff;
-            background-color: #2d326e;
-            font-weight: 100;
-            display: flex;
-            align-items: center;
-            padding: 0 1%;
-            position: sticky;
-            z-index: 1000;
-        }
-        
-        .header {
-            top: 0;
-            justify-content: space-between;
-            height: 4rem;
-        }
-        
-        .footer {
-            bottom: 0;
-            width: 100%;
-            height: 2rem;
-            justify-content: right;
-        }
-
-        .content-wrapper {
-            padding-top: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .content {
-            font-family: "Montserrat", sans-serif;
-            color: #2d326e;
-            font-size: 1.2rem;
-            width: 55%;
-            line-height: 1.25;
-            letter-spacing: -0.08rem;
-        }
-
-        h1, h2, h3 {
-            text-align: left;
-            font-size: 1.5rem;
-            width: 70%;
-            line-height: 1.1;
-            color: rgb(106, 108, 112);
-        }
-
-        #homem, #mulher {
-            font-weight: bold;
-        }
-
-        #homem {
-            color: #007a94;
-        }
-        
-        #mulher {
-            color: #c4276d;
-        }
-
-        p {
-            margin: 0 0 1em;
-        }
-
-        .spacing {
-            margin-top: 40px;
-        }
-    </style>
 </head>
 <body>
     <div class="header">
@@ -107,11 +26,13 @@
             <div class="flourish-embed flourish-scatter" data-src="visualisation/18103117">
                 <script src="https://public.flourish.studio/resources/embed.js"></script>
             </div>
-            <p class="spacing">O salário médio para os <strong>indígenas</strong> é o menor dentre todas as raças - cerca de R$2.020 - e a diferenza entre os salários médios entre um <span id="homem">homem</span> e uma <span id="mulher">mulher</span> <strong>indígena</strong> no Brasil é menor: 0,1%. Mas quando fazemos a mesma comparação para os amarelos, essa diferença fica em 41%.</p>
+            <p>O salário médio para os <strong>indígenas</strong> é o menor dentre todas as raças - cerca de R$2.020 - e a diferença entre os salários médios entre um <span id="homem">homem</span> e uma <span id="mulher">mulher</span> <strong>indígena</strong> no Brasil é menor: 0,1%. Mas quando fazemos a mesma comparação para os <strong>amarelos</strong>, essa diferença fica em 41%.</p>
+            <p class="spacing">Ao fazermos o mesmo tipo de análise abrindo por <strong>níveis de educação</strong>, nos deparamos com a mesma coisa: níveis mais altos apresentam maior desigualdade, uma vez que níveis menores recebem salários médios mais perto do salário mínimo.</p>            
+            <div class="flourish-embed flourish-slope" data-src="visualisation/18275920"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
         </div>
     </div>
     <div class="footer">
-        <a id="saiba_mais" href="https://github.com/giovannacbs/salarios/">Saiba Mais</a>
+        <!-- <a id="saiba_mais" href="https://github.com/giovannacbs/salarios/">Saiba Mais</a> -->
     </div>
 </body>
 </html>
